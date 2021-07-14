@@ -1,0 +1,13 @@
+### Add user
+POST {{api_host}}/user
+Content-Type: application/json
+
+{
+  "login": "admin",
+  "password": "admin123"
+}
+
+### Get user
+GET {{api_host}}/user/admin
+Content-Type: application/json
+
